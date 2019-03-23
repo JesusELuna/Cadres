@@ -78,7 +78,6 @@ namespace Cadres.Service.Implement
                 Precio = dto.Precio,
             };
         }
-
         private VarillaDTO ToDTO(Varilla entity)
         {
             return new VarillaDTO()
